@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace System_Winform_Model
+namespace System_Winform_Model.Form_Dir
 {
-    public partial class Form1 : Form
+    public partial class Main_Fm : Form
     {
-        public Form1()
+        public Main_Fm()
         {
             InitializeComponent();
         }

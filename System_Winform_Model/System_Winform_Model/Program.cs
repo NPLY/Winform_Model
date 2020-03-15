@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System_Winform_Model.Form_Dir;
 
 namespace System_Winform_Model
 {
@@ -16,7 +17,13 @@ namespace System_Winform_Model
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Login_Fm login = new Login_Fm();
+            login.ShowDialog();
+            if (login.DialogResult == DialogResult.OK)
+            {
+                //線上程中開啟主窗體
+                Application.Run(new Main_Fm());
+            }
         }
     }
 }
