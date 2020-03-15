@@ -45,6 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form_Dir\Fm1_ChPw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Dir\Fm1_ChPw.Designer.cs">
+      <DependentUpon>Fm1_ChPw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Dir\Fm2_Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Dir\Fm2_Test.Designer.cs">
+      <DependentUpon>Fm2_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Dir\Fm2_Test2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Dir\Fm2_Test2.Designer.cs">
+      <DependentUpon>Fm2_Test2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Dir\Login_Fm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,10 +75,26 @@
     <Compile Include="Form_Dir\Main_Fm.Designer.cs">
       <DependentUpon>Main_Fm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\MenuModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Check_Input_Service.cs" />
+    <Compile Include="Service\DataTableConvertList.cs" />
+    <Compile Include="Service\MD5_Service.cs" />
+    <EmbeddedResource Include="Form_Dir\Fm1_ChPw.resx">
+      <DependentUpon>Fm1_ChPw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Dir\Fm2_Test.resx">
+      <DependentUpon>Fm2_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Dir\Fm2_Test2.resx">
+      <DependentUpon>Fm2_Test2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Dir\Login_Fm.resx">
       <DependentUpon>Login_Fm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Dir\Main_Fm.resx">
+      <DependentUpon>Main_Fm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
