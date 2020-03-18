@@ -33,6 +33,9 @@ namespace System_Winform_Model.Model
             menumodels.Add(new MenuModel() { ID = 5, ParentID = 2, Value = "關閉程式", Leaf = 1, ChineseName = "關閉程式", root = "System_Winform_Model", PERMISSIONS = "N_TC" });
             menumodels.Add(new MenuModel() { ID = 6, ParentID = 3, Value = "Fm2_Test", Leaf = 1, ChineseName = "測試", root = "System_Winform_Model", PERMISSIONS = "NULL" });
             menumodels.Add(new MenuModel() { ID = 7, ParentID = 3, Value = "Fm2_Test2", Leaf = 1, ChineseName = "測試2", root = "System_Winform_Model", PERMISSIONS = "NULL" });
+            menumodels.Add(new MenuModel() { ID = 8, ParentID = 1, Value = "功能區1", Leaf = 0, ChineseName = "功能區1", root = "System_Winform_Model", PERMISSIONS = "NULL" });
+            menumodels.Add(new MenuModel() { ID = 9, ParentID = 8, Value = "Fm3_CopyExcel", Leaf = 1, ChineseName = "複製欄位", root = "System_Winform_Model", PERMISSIONS = "NULL" });
+
             return menumodels;
         }
     }
